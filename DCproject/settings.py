@@ -76,12 +76,9 @@ WSGI_APPLICATION = 'DCproject.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'postgres',
-        'PASSWORD': 'NiceHairNick666',
-        'HOST': 'localhost',
-        'PORT':'5432',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'nydcdb.sqlite3',
+
     }
 }
 
